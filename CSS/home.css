@@ -4,7 +4,7 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
 }
 
 .logo{
@@ -42,7 +42,7 @@ span{
     font-size: 1.8rem;
     z-index: 10001;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 15px;
     background: var(--hover-color);
     border-radius: 3px;
     color: var(--second-bg-color);
@@ -50,7 +50,7 @@ span{
 }
 
 section{
-    padding: 100px 10%;
+    padding: 100px 5%;
 }
 
 .home{
@@ -61,7 +61,7 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 4em;
-    padding: 60px 10%;
+    padding: 60px 5%;
 }
 
 .home-content{
