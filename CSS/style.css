@@ -33,3 +33,8 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+
+
+section{
+    padding: 100px 5%;
+}
