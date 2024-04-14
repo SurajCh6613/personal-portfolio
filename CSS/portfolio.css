@@ -1,0 +1,20 @@
+.filter-buttons{
+    margin: 2rem;
+    text-align: center;
+}
+
+.filter-buttons .btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: var(--text-color);
+}
+
+.filter-buttons .btn:hover{
+    color: var(--hover-color);
+}
