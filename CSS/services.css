@@ -57,3 +57,16 @@
     box-shadow: var(--neon-box-shadow);
     outline: 3px solid var(--bg-color);
 }
+
+.service-box h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.service-box p{
+    margin: .5rem 0 1.5rem 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #bdbdbd;
+    line-height: 1.6;
+}
