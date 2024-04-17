@@ -1,0 +1,24 @@
+footer{
+    padding: 1.5rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p{
+    color: #bdbdbd;
+}
+
+footer a{
+    display: inline-flex;
+    justify-content: center;
+    color: var(--text-color);
+    background: var(--hover-color);
+    padding: .6rem;
+    border-radius: 5px;
+}
+
+footer a i{
+    font-size: 1rem;
+    color: var(--second-bg-color);
+}
