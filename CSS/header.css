@@ -11,6 +11,12 @@ header{
     padding: 20px 5%;
 }
 
+header.sticky{
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--second-bg-color);
+    padding: 12px 10%;
+}
+
 .logo{
     font-size: 26px;
     font-weight: 700;
