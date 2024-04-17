@@ -31,9 +31,13 @@ span{
     display: flex;
 }
 .navlist a{
+    display: inline-block;
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 20px;
+    animation: slideAnimation 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    opacity: 0;
 }
 
 .navlist a:hover{
@@ -61,4 +65,16 @@ span{
     border-radius: 3px;
     color: var(--second-bg-color);
     display: none;
+}
+
+/* Keyframes */
+@keyframes slideAnimation{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

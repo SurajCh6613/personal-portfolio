@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suraj Chaudhary</title>
-    <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/about.css">
@@ -14,6 +13,7 @@
     <link rel="stylesheet" href="CSS/portfolio.css">
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/main.css">
 
     <!-- Link boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -24,12 +24,12 @@
     <header>
         <div class="logo"><span>S</span>uraj</div>
         <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"></div>
     </header>
@@ -39,7 +39,7 @@
 
     <!------------------- Home section Start  ---------------------->
     <section id="home" class="home">
-        <div class="home-content">
+        <div class="home-content scroll-scale">
             <h1>Hi! I'm Suraj Chaudhary</h1>
             <div class="change-text">
                 <h3>And I'm</h3>
@@ -79,7 +79,7 @@
 
         </div>
         <!----------------  Home Page Image  ---------------------->
-        <div class="home-image">
+        <div class="home-image scroll-scale">
             <div class="img-box">
                 <img src="Images/man3.png" alt="">
             </div>
@@ -139,7 +139,7 @@
 
     <!---------------- About Section Start ------------------------>
     <section id="about" class="about">
-        <div class="img-about">
+        <div class="img-about scroll-scale">
             <img src="Images/about-me-pic2.png" alt="About me Image">
             <div class="info-about1">
                 <span>1+</span>
@@ -155,7 +155,7 @@
             </div>
         </div>
 
-        <div class="about-content">
+        <div class="about-content scroll-scale">
             <span>Let me introduce myself</span>
             <h2>About Me</h2>
             <h3>A story of good</h3>
@@ -174,12 +174,12 @@
 
     <!---------------- Service Section Start ------------------------>
     <section id="services" class="services">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>What I will do for you</span>
             <h2>Our Services</h2>
         </div>
 
-        <div class="section-services">
+        <div class="section-services scroll-bottom">
             <div class="service-box">
                 <i class="bx bxs-layer service-icon"></i>
                 <h3>Graphic Designer</h3>
@@ -223,7 +223,7 @@
         </div>
 
         <div class="skill-main">
-            <div class="skill-left">
+            <div class="skill-left scroll-scale">
                 <h3>Technical Skills</h3>
                 <div class="skill-bar">
                     <div class="info">
@@ -268,7 +268,7 @@
 
 
             </div>
-            <div class="skill-right">
+            <div class="skill-right scroll-scale">
                 <h3>Profession Skills</h3>
                 <div class="professional">
 
@@ -316,20 +316,20 @@
 
     <!---------------- Portfolio Section Start ------------------------>
     <section id="portfolio" class="portfolio">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>What i will do for you</span>
             <h2>Latest Projects</h2>
         </div>
 
         <div class="container">
-            <div class="filter-buttons">
-                <button class="btn" data-filter="all">All</button>
-                <button class="btn" data-filter=".product">Product</button>
-                <button class="btn" data-filter=".interacting">Interacting</button>
-                <button class="btn" data-filter=".web">Web App</button>
+            <div class="filter-buttons scroll-scale">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Product</button>
+                <button class="button" data-filter=".interacting">Interacting</button>
+                <button class="button" data-filter=".web">Web App</button>
             </div>
 
-            <div class="portfolio-gallery">
+            <div class="portfolio-gallery scroll-bottom">
                 
                 <div class="port-box mix product">
                     <div class="port-image">
@@ -408,12 +408,12 @@
     
     <!---------------- Contact Section Start ------------------------>
     <section id="contact" class="contact">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>ask me question</span>
             <h2>Contact Me</h2>
         </div>
 
-        <form action="#">
+        <form action="#" class="scroll-bottom">
             <input type="text" placeholder="Your Name">
             <input type="email" placeholder="Your Email">
             <input type="text" placeholder="Your Address">
@@ -430,7 +430,7 @@
 
 
     <!---------------- Footer Section Start ------------------------>
-    <footer>
+    <footer class="scroll-scale">
         <p>Copyright &copy; 2024 by Suraj Chaudhary || All Right Reserved.</p>
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
     </footer>

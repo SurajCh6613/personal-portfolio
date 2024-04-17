@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.filter-buttons .btn {
+.filter-buttons .button{
     background: none;
     outline: none;
     border: none;
@@ -15,7 +15,7 @@
     color: var(--text-color);
 }
 
-.filter-buttons .btn:hover {
+.filter-buttons .button:hover {
     color: var(--hover-color);
 }
 
