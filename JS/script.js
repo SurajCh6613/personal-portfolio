@@ -78,7 +78,7 @@ activeMenu();
 window.addEventListener("scroll",activeMenu);
 
 // Sticky Navbar JS
-const header = document.querySelectorAll("header");
+const header = document.querySelector("header");
 window.addEventListener("scroll",function(){
-    header.classList.toggle("sticky",this.window.scrollY > 50)
+    header.classList.toggle("sticky",window.scrollY > 50)
 });
