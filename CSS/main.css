@@ -191,5 +191,8 @@ section{
     .skills,.portfolio,.contact,footer{
         width: 121vw;
     }
-    
+    .home-image .img-box img{
+        height: 50vh;
+        width: 100vw;
+    }
 }
