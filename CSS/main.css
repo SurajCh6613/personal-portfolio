@@ -184,9 +184,9 @@ section{
     .img-about img{
         width: 300px;
     }
-    /* .info-about1,.info-about2,.info-about3{
+    .info-about1,.info-about2,.info-about3{
         display: none;
-    } */
+    }
     .img-about p{
         font-size: 1rem;
     }
@@ -232,5 +232,10 @@ section{
        width: 90%;
         /* background-color: yellow; */
         height: 80%;
+    }
+    .img-about img{
+        /* background: yellow; */
+        width: 70%;
+        height: 30%;
     }
 }
