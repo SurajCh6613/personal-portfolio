@@ -79,8 +79,8 @@
 .btn-box{
     display: flex;
     justify-content: space-between;
-    width: 320px;
-    height: 45px;
+    width: 20rem;
+    height: 3rem;
 }
 
 .btn-box .btn{

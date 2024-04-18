@@ -168,9 +168,13 @@ section{
 
 @media(max-width:420px){
     html{
-        width: auto;
         font-size: 100%;
     }
+  *{
+    max-width: 100%;
+    width: auto;
+  }
+
     footer p{
         font-size: .6rem;
     }
@@ -186,13 +190,47 @@ section{
     .img-about p{
         font-size: 1rem;
     }
-    .about,
+    .about,section,header,.home,
     .services,
     .skills,.portfolio,.contact,footer{
-        width: 121vw;
-    }
-    .home-image .img-box img{
-        height: 50vh;
         width: 100vw;
+    }
+    .img-box img{
+        width: 60%;
+        height: 30%;
+        padding-top: 1rem;
+    }
+    .home{
+        /* background-color: rgb(55, 0, 255); */
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-content{
+        /* background-color: green; */
+        width:  90vw;
+        margin-top: -3rem;
+    }
+    .home-content h1{
+        font-size: 1.8rem;
+    }
+    .home-content .change-text{
+        font-size: 1rem;
+    }
+    .info-box{
+        display: grid;
+        gap: .8rem;
+    }
+    .home-image{
+        height: 30vh;
+        /* background-color: red; */
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .liquid-shape{
+        padding: 1rem 0 0 1.5rem;
+       width: 90%;
+        /* background-color: yellow; */
+        height: 80%;
     }
 }
