@@ -195,18 +195,19 @@
 }
 
 .img-box img{
-    width: 100%;
+    width: 100vw;
     max-width: 350px;
-    height: auto;
+    height: 80vh;
 }
 
 /* Liquid-shape CSS */
 .liquid-shape{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     z-index: -1;
-    top: 10%;
+    top: 15%;
+    left: 5%;
 }
 
 .liquid-shape:nth-child(2){
