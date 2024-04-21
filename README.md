@@ -70,4 +70,5 @@
         .catch(error => console.error('Error!', error.message))
     })
   <li>Paste 'submit-to-google-sheet' in form tag : name="submit-to-google-sheet" in your html file</li>
+  <li>Now its done. Your Google Sheet linked with your form.</li>
 </ol>
