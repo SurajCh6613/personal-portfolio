@@ -413,15 +413,17 @@
             <h2>Contact Me</h2>
         </div>
 
-        <form action="#" class="scroll-bottom">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <input type="text" placeholder="Your Address">
-            <input type="tel" placeholder="Phone Number">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <form action="#" name="submit-to-google-sheet" class="scroll-bottom">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="address" placeholder="Your Address">
+            <input type="tel" name="mobileNumber" placeholder="Phone Number" required>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span id="success"></span>
             <div class="btn-box formBtn">
                 <button type="submit" class="btn">Send Message</button>
             </div>
+
         </form>
 
     </section>

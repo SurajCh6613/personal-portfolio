@@ -116,3 +116,22 @@ scrollBottom.forEach((el)=>obeserver.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el)=>obeserver.observe(el));
+
+
+// JS for Making Contact form Woring 
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzYk3Cu-uXOZriaFf9XgJ-BwwVkfEAnR7yicbXdHPAYdQJceTHHAdHktHSdFr26itPF/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const success = document.getElementById('success');
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        success.innerHTML = "Message sent successfully";
+
+        setTimeout(function() {
+            success.innerHTML = "";
+        },4000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
