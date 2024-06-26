@@ -1,6 +1,7 @@
 .contact{
     background: var(--second-bg-color);
     width: 100%;
+    height: 97.5vh;
 }
 
 .contact form{

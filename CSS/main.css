@@ -108,6 +108,9 @@ section{
     .social-icons{
         margin-top: 2rem;
     }
+    .info-box{
+        display: none;
+    }
 }
 
 @media(max-width:768px){
@@ -163,6 +166,10 @@ section{
     }
     footer p{
         font-size: .8rem;
+    }
+
+    .info-box{
+        display: none;
     }
 }
 
@@ -237,5 +244,8 @@ section{
         /* background: yellow; */
         width: 70%;
         height: 30%;
+    }
+    .info-box{
+        display: none;
     }
 }
