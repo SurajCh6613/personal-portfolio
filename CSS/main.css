@@ -58,19 +58,19 @@ section{
 .scroll-scale{
     opacity: 0;
     transform: scale(.9);
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .scroll-bottom{
     opacity: 0;
     transform: translateY(300px);
-    transition: 3s;
+    transition: 2s;
 }
 
 .scroll-top{
     opacity: 0;
     transform: translateY(-300px);
-    transition: 3s;
+    transition: 2s;
 }
 
 .show-items{
